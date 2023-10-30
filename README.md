@@ -17,7 +17,7 @@ Pick a slot if you'd like to meet me and chat about anything you are passionate 
 👇 Hit in your console or terminal to connect with me.
 
 ```bash
-dotnet tool install -g LynxHub --version 1.0.1
+dotnet tool install -g LynxHub --version 1.0.4
 ```
 ```bash
 Lynx
