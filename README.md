@@ -47,10 +47,7 @@ public class SamirAzzam
             CSharp = new string[] { ".NET Core", "ASP.NET Core", "WPF", "EFCore" },
             JavaScript = new string[] { "Node", "Express" }
         },
-        MobileApp = new MobileAppTech
-        {
-            Native = new string[] { "Xamarin" }
-        },
+
         DevOps = new string[] { "CI/CD Pipelines", "Docker🐳", "Nginx", "Apache" },
         Databases = new string[] { "SQL Server", "MySQL", "SQLite" },
         Misc = new string[] { "Power Platform", "Socket.IO", "Entity Framework", "LINQ" }
@@ -71,11 +68,6 @@ public class SamirAzzam
     {
         public string[] CSharp { get; set; }
         public string[] JavaScript { get; set; }
-    }
-
-    public class MobileAppTech
-    {
-        public string[] Native { get; set; }
     }
 }
 ````
