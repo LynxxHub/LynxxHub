@@ -51,7 +51,7 @@ public class SamirAzzam
         {
             Native = new string[] { "Xamarin" }
         },
-        DevOps = new string[] { "Azure DevOps", "Docker🐳", "Nginx", "Apache" },
+        DevOps = new string[] { "CI/CD Pipelines", "Docker🐳", "Nginx", "Apache" },
         Databases = new string[] { "SQL Server", "MySQL", "SQLite" },
         Misc = new string[] { "Power Platform", "Socket.IO", "Entity Framework", "LINQ" }
     };
