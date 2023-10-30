@@ -23,26 +23,61 @@ npx anmol
 
 ### <img src="https://media.giphy.com/media/VgCDAzcKvsR6OM0uWg/giphy.gif" width="50"> A little more about me...  
 
-```javascript
-const anmol = {
-    pronouns: "He" | "Him",
-    code: ["Javascript", "Python", "Java", "PHP"],
-    askMeAbout: ["web dev", "tech", "app dev", "photography"],
-    technologies: {
-        backEnd: {
-            js: ["Node", "Fastify", "Express"],
+```C#
+public class SamirAzzam
+{
+    public string[] Pronouns = { "He", "Him"};
+    public string[] Code = { "C#", "SQL", "HTML", "CSS", "JavaScript"};
+    public string[] AskMeAbout = {
+                                     "Web Application Engineering",
+                                     "Power Platform Integrations",
+                                     ".NET Framework & Solutions",
+                                     "Pedagogical Methods in Tech",
+                                     "Football Strategy & Analytics",
+                                     "Game Development & Mechanics",
+                                     "Car Tech & Innovations"
+                                 };
+
+
+    public Technologies TechStack = new Technologies
+    {
+        BackEnd = new BackEndTech
+        {
+            CSharp = new string[] { ".NET Core", "ASP.NET Core", "WPF", "EFCore" },
+            JavaScript = new string[] { "Node", "Express" }
         },
-        mobileApp: {
-            native: ["Android Development"]
+        MobileApp = new MobileAppTech
+        {
+            Native = new string[] { "Xamarin" }
         },
-        devOps: ["AWS", "Docker🐳", "Route53", "Nginx"],
-        databases: ["mongo", "MySql", "sqlite"],
-        misc: ["Firebase", "Socket.IO", "selenium", "open-cv", "php", "SuiteApp"]
-    },
-    architecture: ["Serverless Architecture", "Progressive web applications", "Single page applications"],
-    currentFocus: "No Focus point at this time",
-    funFact: "There are two ways to write error-free programs; only the third one works"
-};
+        DevOps = new string[] { "Azure DevOps", "Docker🐳", "Nginx", "Apache" },
+        Databases = new string[] { "SQL Server", "MySQL", "SQLite" },
+        Misc = new string[] { "Power Platform", "Socket.IO", "Entity Framework", "LINQ" }
+    };
+    public string[] Architecture = { "Microservices", "Web APIs", "Single page applications", "MVC" };
+    public string CurrentFocus = "Empowering students with C# and OOP principles";
+    public string FunFact = "I love both cats 🐱 and dogs 🐶 equally! Also, the best code is written while thinking about the next car ride or football match.";
+
+    public class Technologies
+    {
+        public BackEndTech BackEnd { get; set; }
+        public MobileAppTech MobileApp { get; set; }
+        public string[] DevOps { get; set; }
+        public string[] Databases { get; set; }
+        public string[] Misc { get; set; }
+    }
+
+    public class BackEndTech
+    {
+        public string[] CSharp { get; set; }
+        public string[] JavaScript { get; set; }
+    }
+
+    public class MobileAppTech
+    {
+        public string[] Native { get; set; }
+    }
+}
 ```
 
 <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="60"> <em><b>I love connecting with different people</b> so if you want to say <b>hi, I'll be happy to meet you more!</b> 😊</em>
