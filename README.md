@@ -6,7 +6,7 @@
 
 [![Linkedin: Lynx](https://img.shields.io/badge/-Lynx-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/LynxHub/)](https://www.linkedin.com/in/LynxHub/)
 ![GitHub followers](https://img.shields.io/github/followers/LynxxHub?label=Follow&style=social)
-[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://lynxhub.github.io)](https://lynxhub.github.io/)
+[![website](https://img.shields.io/badge/Website-46a2f1.svg?&style=flat-square&logo=Google-Chrome&logoColor=white&link=https://lynxxhub.github.io)](https://lynxxhub.github.io/)
 
 ### 📫 Like to meet me?
 
