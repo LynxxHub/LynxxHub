@@ -53,7 +53,6 @@ public class SamirAzzam
         Misc = new string[] { "Power Platform", "Socket.IO", "Entity Framework", "LINQ" }
     };
     public string[] Architecture = { "Microservices", "Web APIs", "Single page applications", "MVC" };
-    public string CurrentFocus = "Empowering students with C# and OOP principles";
 
     public class Technologies
     {
